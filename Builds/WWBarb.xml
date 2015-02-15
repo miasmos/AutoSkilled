@@ -10,7 +10,7 @@
     <SetSkill name="Rend" rune="None" slot="R" />
   </Level>
   <Level value="6">
-    <SetSkill name="Bash" rune="Clobber" slot="L" />
+    <SetSkill name="Bash" rune="Frostbite" slot="L" />
   </Level>
   <Level value="8">
     <SetSkill name="Leap" rune="None" slot="1" />
@@ -43,7 +43,7 @@
   </Level>
   <Level value="19">
     <SetSkill name="Rend" rune="BloodLust" slot="R" />
-    <SetSkill name="Revenge" rune="VengeanceIsMine" slot="2" />
+    <SetSkill name="Revenge" rune="BloodLaw" slot="2" />
     <SetSkill name="Earthquake" rune="None" slot="4" />
   </Level>
   <Level value="20">

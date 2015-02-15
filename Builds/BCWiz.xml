@@ -37,7 +37,7 @@
     <SetSkill name="FrostNova" rune="ColdSnap" slot="1" />
   </Level>
   <Level value="19">
-    <SetSkill name="SpectralBlade" rune="DeepCuts" slot="L" />
+    <SetSkill name="SpectralBlade" rune="FlameBlades" slot="L" />
     <SetSkill name="EnergyTwister" rune="MistralBreeze" slot="R" />
     <SetSkill name="ExplosiveBlast" rune="None" slot="4" />
   </Level>
@@ -49,7 +49,7 @@
     <SetSkill name="IceArmor" rune="ChillingAura" slot="3" />
   </Level>
   <Level value="24">
-    <SetSkill name="SpectralBlade" rune="ImpactfulBlades" slot="L" />
+    <SetSkill name="SpectralBlade" rune="SiphoningBlade" slot="L" />
     <SetSkill name="ExplosiveBlast" rune="Unleashed" slot="4" />
   </Level>
   <Level value="25">
@@ -59,7 +59,7 @@
     <SetSkill name="Blizzard" rune="None" slot="R" />
   </Level>
   <Level value="29">
-    <SetSkill name="ExplosiveBlast" rune="TimeBomb" slot="4" />
+    <SetSkill name="ExplosiveBlast" rune="Flash" slot="4" />
   </Level>
   <Level value="30">
     <SetSkill name="ColdBlooded" rune="None" slot="P2" />
@@ -70,7 +70,7 @@
   </Level>
   <Level value="35">
     <SetSkill name="SpectralBlade" rune="SiphoningBlade" slot="L" />
-    <SetSkill name="Blizzard" rune="GraspingChill" slot="R" />
+    <SetSkill name="Blizzard" rune="LightningStorm" slot="R" />
   </Level>
   <Level value="39">
     <SetSkill name="ExplosiveBlast" rune="ShortFuse" slot="4" />
@@ -90,13 +90,12 @@
   </Level>
   <Level value="50">
     <SetSkill name="ExplosiveBlast" rune="Obliterate" slot="4" />
-    <SetSkill name="CriticalMass" rune="None" slot="P3" />
   </Level>
   <Level value="51">
-    <SetSkill name="SpectralBlade" rune="HealingBlades" slot="L" />
+    <SetSkill name="SpectralBlade" rune="BarrierBlades" slot="L" />
   </Level>
   <Level value="54">
-    <SetSkill name="Blizzard" rune="StarkWinter" slot="R" />
+    <SetSkill name="Blizzard" rune="Apocalypse" slot="R" />
   </Level>
   <Level value="56">
     <SetSkill name="ExplosiveBlast" rune="ChainReaction" slot="4" />

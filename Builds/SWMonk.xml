@@ -59,7 +59,7 @@
     <SetSkill name="SweepingWind" rune="MasterOfWind" slot="2" />
   </Level>
   <Level value="29">
-    <SetSkill name="SevenSidedStrike" rune="SeveralSidedStrike" slot="3" />
+    <SetSkill name="SevenSidedStrike" rune="Incinerate" slot="3" />
   </Level>
   <Level value="30">
     <SetSkill name="MantraOfConviction" rune="None" slot="4" />
@@ -72,6 +72,6 @@
     <SetSkill name="MantraOfConviction" rune="Overawe" slot="4" />
   </Level>
   <Level value="45">
-    <SetSkill name="OneWithEverything" rune="None" slot="P3" />
+    <SetSkill name="Harmony" rune="None" slot="P3" />
   </Level>
  </Build>

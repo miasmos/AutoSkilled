@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Zeta;
-using Zeta.CommonBot;
-using Zeta.Internals.Actors;
+using Zeta.Bot;
+using Zeta.Game.Internals.Actors;
 
 namespace AutoSkilled {
     public class ActiveSkill : Skill {
@@ -26,17 +26,18 @@ namespace AutoSkilled {
 
         public override bool activate() {
             // Get the current Skill in the hotbar slot we want to use
-            SNOPower currentlyEquippedSkillInHotbarSlot = ZetaDia.CPlayer.GetPowerForSlot(this.hotbarSlot);
+            SNOPower currentlyEquippedSkillInHotbarSlot = Zeta.Game.ZetaDia.CPlayer.GetPowerForSlot(this.hotbarSlot);
             // Check if Skill in slot is off cooldown, out of resource, or slot is empty so we can switch it
             PowerManager.CanCastFlags castFlag = PowerManager.CanCastFlags.None;
             bool wasSet = false;
             bool offCooldown = PowerManager.CanCast(currentlyEquippedSkillInHotbarSlot, out castFlag);
-            if (offCooldown || castFlag == PowerManager.CanCastFlags.PowerNotEnoughResource || castFlag == PowerManager.CanCastFlags.PowerUnusableGeneric || currentlyEquippedSkillInHotbarSlot == SNOPower.None) {
+            if (offCooldown || castFlag == PowerManager.CanCastFlags.PowerUnusableGeneric || currentlyEquippedSkillInHotbarSlot == SNOPower.None) {
                 // Set the skill
-                ZetaDia.Me.SetActiveSkill(this.getSnoPower(), this.getRuneId(), this.getHotbarSlot());
-                ZetaDia.Actors.Update();
+                Zeta.Game.ZetaDia.Me.SetActiveSkill(this.getSnoPower(), this.getRuneId(), this.getHotbarSlot());
+                Zeta.Game.ZetaDia.Actors.Update();
                 // Check to see if it actually was set
-                if (ZetaDia.CPlayer.GetPowerForSlot(this.getHotbarSlot()) == this.getSnoPower() && ZetaDia.CPlayer.GetRuneIndexForSlot(this.getHotbarSlot()) == this.getRuneId()) {
+                if (Zeta.Game.ZetaDia.CPlayer.GetPowerForSlot(this.getHotbarSlot()) == this.getSnoPower() && Zeta.Game.ZetaDia.CPlayer.GetRuneIndexForSlot(this.getHotbarSlot()) == this.getRuneId())
+                {
                     wasSet = true;
                 }
             }

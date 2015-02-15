@@ -5,7 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Zeta;
-using Zeta.Internals.Actors;
+using Zeta.Game;
+using Zeta.Game.Internals.Actors;
 
 namespace AutoSkilled {
     public class PassiveSkill : Skill {
@@ -25,11 +26,7 @@ namespace AutoSkilled {
             int i = 0;
             // Read current passives and store them in array
             foreach (SNOPower currentlySetPassive in ZetaDia.CPlayer.PassiveSkills) {
-                if(currentlySetPassive == null) {
-                    currentPassives[i] = SNOPower.None;
-                } else {
-                    currentPassives[i] = currentlySetPassive;
-                }
+                currentPassives[i] = currentlySetPassive;
                 i++;
             }
             currentPassives[this.getPassiveSlot()] = this.getSnoPower();

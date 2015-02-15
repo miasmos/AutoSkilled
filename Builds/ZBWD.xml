@@ -40,7 +40,7 @@
     <SetSkill name="GruesomeFeast" rune="None" slot="P2" />
   </Level>
   <Level value="21">
-    <SetSkill name="ZombieCharger" rune="LeperousZombie" slot="L" />
+    <SetSkill name="ZombieCharger" rune="PileOn" slot="L" />
     <SetSkill name="SoulHarvest" rune="Siphon" slot="2" />
     <SetSkill name="Horrify" rune="Stalker" slot="3" />
   </Level>
@@ -71,7 +71,7 @@
     <SetSkill name="Hex" rune="Jinx" slot="3" />
   </Level>
   <Level value="33">
-    <SetSkill name="ZombieCharger" rune="WaveOfZombies" slot="L" />
+    <SetSkill name="ZombieCharger" rune="LumberingCold" slot="L" />
   </Level>
   <Level value="50">
     <SetSkill name="GraveInjustice" rune="None" slot="P3" />
