@@ -941,12 +941,12 @@ namespace AutoSkilled {
             runeDict.Add("SlowTime", 3);
             runeDict.Add("ImprovedArchon", 4);
 
-            /*skillDict.Add("BlackHole", SNOPower.X1_Wizard_BlackHole);
+            skillDict.Add("BlackHole", SNOPower.X1_Wizard_Wormhole);    //why is this called wormhole
             runeDict.Add("Supermassive", 0);
             runeDict.Add("AbsoluteZero", 1);
             runeDict.Add("EventHorizon", 2);
             runeDict.Add("Blazar", 3);
-            runeDict.Add("Spellsteal", 4);*/
+            runeDict.Add("Spellsteal", 4);
 
             // Wizard - Passives
             skillDict.Add("PowerHungry", SNOPower.Wizard_Passive_PowerHungry);
