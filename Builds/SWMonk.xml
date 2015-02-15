@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Build name="Sweeping Winds" class="Monk">
+  <Level value="2">
+    <SetSkill name="LashingTailKick" rune="None" slot="R" />
+  </Level>
+  <Level value="4">
+    <SetSkill name="BlindingFlash" rune="None" slot="1" />
+  </Level>
+  <Level value="6">
+    <SetSkill name="FistsOfThunder" rune="Thunderclap" slot="L" />
+  </Level>
+  <Level value="7">
+    <SetSkill name="LashingTailKick" rune="VultureClawKick" slot="R" />
+  </Level>
+  <Level value="8">
+    <SetSkill name="BreathOfHeaven" rune="None" slot="1" />
+  </Level>
+  <Level value="9">
+    <SetSkill name="DashingStrike" rune="None" slot="2" />
+  </Level>
+  <Level value="10">
+    <SetSkill name="FleetFooted" rune="None" slot="P1" />
+  </Level>
+  <Level value="12">
+    <SetSkill name="WaveOfLight" rune="None" slot="R" />
+  </Level>
+  <Level value="13">
+    <SetSkill name="ExplodingPalm" rune="None" slot="2" />
+  </Level>
+  <Level value="14">
+    <SetSkill name="BreathOfHeaven" rune="CircleOfScorn" slot="1" />
+    <SetSkill name="CycloneStrike" rune="None" slot="3" />
+  </Level>
+  <Level value="17">
+    <SetSkill name="SevenSidedStrike" rune="None" slot="3" />
+  </Level>
+  <Level value="18">
+    <SetSkill name="WaveOfLight" rune="WallOfLight" slot="R" />
+    <SetSkill name="ExplodingPalm" rune="TheFleshIsWeak" slot="2" />
+  </Level>
+  <Level value="19">
+    <SetSkill name="MantraOfEvasion" rune="None" slot="4" />
+  </Level>
+  <Level value="20">
+    <SetSkill name="SeizeTheInitiative" rune="None" slot="P2" />
+  </Level>
+  <Level value="21">
+    <SetSkill name="BreathOfHeaven" rune="CircleOfLife" slot="1" />
+    <SetSkill name="SweepingWind" rune="None" slot="2" />
+    <SetSkill name="MantraOfRetribution" rune="None" slot="4" />
+  </Level>
+  <Level value="25">
+    <SetSkill name="WaveOfLight" rune="ExplosiveLight" slot="R" />
+  </Level>
+  <Level value="26">
+    <SetSkill name="MantraOfHealing" rune="None" slot="4" />
+  </Level>
+  <Level value="27">
+    <SetSkill name="SweepingWind" rune="MasterOfWind" slot="2" />
+  </Level>
+  <Level value="29">
+    <SetSkill name="SevenSidedStrike" rune="SeveralSidedStrike" slot="3" />
+  </Level>
+  <Level value="30">
+    <SetSkill name="MantraOfConviction" rune="None" slot="4" />
+    <SetSkill name="Resolve" rune="None" slot="P3" />
+  </Level>
+  <Level value="32">
+    <SetSkill name="BreathOfHeaven" rune="BlazingWrath" slot="1" />
+  </Level>
+  <Level value="35">
+    <SetSkill name="MantraOfConviction" rune="Overawe" slot="4" />
+  </Level>
+  <Level value="45">
+    <SetSkill name="OneWithEverything" rune="None" slot="P3" />
+  </Level>
+ </Build>

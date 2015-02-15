@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Build name="Blast Chiller" class="Wizard">
+  <Level value="2">
+    <SetSkill name="RayOfFrost" rune="None" slot="R" />
+  </Level>
+  <Level value="4">
+    <SetSkill name="FrostNova" rune="None" slot="1" />
+  </Level>
+  <Level value="5">
+    <SetSkill name="ArcaneOrb" rune="None" slot="R" />
+  </Level>
+  <Level value="6">
+    <SetSkill name="MagicMissile" rune="ChargedBlast" slot="L" />
+  </Level>
+  <Level value="9">
+    <SetSkill name="DiamondSkin" rune="None" slot="2" />
+  </Level>
+  <Level value="10">
+    <SetSkill name="Blur" rune="None" slot="P1" />
+  </Level>
+  <Level value="11">
+    <SetSkill name="SpectralBlade" rune="None" slot="L" />
+    <SetSkill name="ArcaneOrb" rune="Obliteration" slot="R" />
+  </Level>
+  <Level value="12">
+    <SetSkill name="ArcaneTorrent" rune="None" slot="R" />
+    <SetSkill name="FrostNova" rune="Shatter" slot="1" />
+  </Level>
+  <Level value="13">
+    <SetSkill name="EnergyTwister" rune="None" slot="R" />
+  </Level>
+  <Level value="14">
+    <SetSkill name="DiamondSkin" rune="CrystalShell" slot="2" />
+    <SetSkill name="IceArmor" rune="None" slot="3" />
+  </Level>
+  <Level value="18">
+    <SetSkill name="FrostNova" rune="ColdSnap" slot="1" />
+  </Level>
+  <Level value="19">
+    <SetSkill name="SpectralBlade" rune="DeepCuts" slot="L" />
+    <SetSkill name="EnergyTwister" rune="MistralBreeze" slot="R" />
+    <SetSkill name="ExplosiveBlast" rune="None" slot="4" />
+  </Level>
+  <Level value="20">
+    <SetSkill name="Prodigy" rune="None" slot="P2" />
+  </Level>
+  <Level value="21">
+    <SetSkill name="Hydra" rune="None" slot="R" />
+    <SetSkill name="IceArmor" rune="ChillingAura" slot="3" />
+  </Level>
+  <Level value="24">
+    <SetSkill name="SpectralBlade" rune="ImpactfulBlades" slot="L" />
+    <SetSkill name="ExplosiveBlast" rune="Unleashed" slot="4" />
+  </Level>
+  <Level value="25">
+    <SetSkill name="Meteor" rune="None" slot="R" />
+  </Level>
+  <Level value="27">
+    <SetSkill name="Blizzard" rune="None" slot="R" />
+  </Level>
+  <Level value="29">
+    <SetSkill name="ExplosiveBlast" rune="TimeBomb" slot="4" />
+  </Level>
+  <Level value="30">
+    <SetSkill name="ColdBlooded" rune="None" slot="P2" />
+    <SetSkill name="Evocation" rune="None" slot="P3" />
+  </Level>
+  <Level value="31">
+    <SetSkill name="IceArmor" rune="Crystallize" slot="3" />
+  </Level>
+  <Level value="35">
+    <SetSkill name="SpectralBlade" rune="SiphoningBlade" slot="L" />
+    <SetSkill name="Blizzard" rune="GraspingChill" slot="R" />
+  </Level>
+  <Level value="39">
+    <SetSkill name="ExplosiveBlast" rune="ShortFuse" slot="4" />
+  </Level>
+  <Level value="41">
+    <SetSkill name="FrostNova" rune="DeepFreeze" slot="1" />
+  </Level>
+  <Level value="42">
+    <SetSkill name="Blizzard" rune="FrozenSolid" slot="R" />
+    <SetSkill name="IceArmor" rune="JaggedIce" slot="3" />
+  </Level>
+  <Level value="47">
+    <SetSkill name="Blizzard" rune="Snowbound" slot="R" />
+  </Level>
+  <Level value="49">
+    <SetSkill name="IceArmor" rune="IceReflect" slot="3" />
+  </Level>
+  <Level value="50">
+    <SetSkill name="ExplosiveBlast" rune="Obliterate" slot="4" />
+    <SetSkill name="CriticalMass" rune="None" slot="P3" />
+  </Level>
+  <Level value="51">
+    <SetSkill name="SpectralBlade" rune="HealingBlades" slot="L" />
+  </Level>
+  <Level value="54">
+    <SetSkill name="Blizzard" rune="StarkWinter" slot="R" />
+  </Level>
+  <Level value="56">
+    <SetSkill name="ExplosiveBlast" rune="ChainReaction" slot="4" />
+  </Level>
+  <Level value="60">
+    <SetSkill name="Blizzard" rune="UnrelentingStorm" slot="R" />
+  </Level>
+</Build>
